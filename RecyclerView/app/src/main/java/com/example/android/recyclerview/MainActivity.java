@@ -10,6 +10,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.android.recyclerview.Adapter.CustomAdapter;
 import com.example.android.recyclerview.UserDetails.User;
 
 import java.util.ArrayList;
