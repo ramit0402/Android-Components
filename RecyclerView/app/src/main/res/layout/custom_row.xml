@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="19dp"
+        android:padding="0dp"
+        android:src="@mipmap/ic_user" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_user"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@+id/iv_user"
+        android:layout_toRightOf="@+id/iv_user"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        tools:text="Ramit Kovvalpurail" />
+
+    <TextView
+        android:id="@+id/tv_user_id"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_user_name"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/iv_user"
+        android:paddingTop="3dp"
+        android:textColor="@color/grey"
+        android:textSize="12sp"
+        tools:text="ramit0402" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_user_id"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:textColor="@color/grey"
+        android:textSize="12sp"
+        tools:text="05/03/2018" />
+
+</RelativeLayout>
